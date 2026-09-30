@@ -1,0 +1,26 @@
+Algoritmo "PARES_CONSECUTIVOS"
+// LOGICA D EPROGRAMACAO BASICA
+// ESTRUTURA DE REPETICAO ENQUANTO
+// Data atual  : 10/09/2026
+Var
+   X, SOMA:INTEIRO
+
+Inicio
+   ESCREVA("DIGITE UM NUMERO INTEIRO: ")//USUARIO DIGITA
+   LEIA(X)
+
+   ENQUANTO X <> 0 FACA
+
+      SE X % 2 <> 0 ENTAO
+         X <- X + 1
+      FIMSE
+
+      SOMA <- 5 * X + 20
+      ESCREVAL("SOMA = ", SOMA)
+
+      ESCREVA("DIGITE UM NUMERO INTEIRO: ")
+      LEIA(X)
+
+   FIMENQUANTO
+
+Fimalgoritmo

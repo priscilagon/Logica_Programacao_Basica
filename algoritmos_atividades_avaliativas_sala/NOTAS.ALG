@@ -1,0 +1,50 @@
+Algoritmo "NOTAS"
+// LOGICA DE PROGRAMACAO BASICA
+// Data atual  : 08/09/2026
+Var
+   // Declarações das variáveis (5 VARIAVEIS)
+   NOTA1, NOTA2, NOTA3, NOTA4, MEDIAFINAL:REAL
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVAL("DIGITE A 1º NOTA: ")
+   LEIA(NOTA1)
+
+   ESCREVAL("DIGITE A 2º NOTA: ")
+   LEIA(NOTA2)
+
+   ESCREVAL("DIGITE A 3º NOTA: ")
+   LEIA(NOTA3)
+
+   ESCREVAL("DIGITE A 4° NOTA: ")
+   LEIA(NOTA4)
+
+   //PROCESSAMENTO DE DADOS
+   MEDIAFINAL <- (NOTA1 + NOTA2 + NOTA3 + NOTA4)/4
+
+   ESCREVAL("MEDIA FINAL = ", MEDIAFINAL:5:1)
+
+   //CONDICIONAL SIMPLES
+   //SE MEDIAFINAL < 6.0 ENTAO
+   //ESCREVAL("REPROVADO! ")
+   //FIMSE
+
+   //CONDICIONAL COMPOSTA
+   //SE MEDIAFINAL >= 6.0 ENTAO
+   //ESCREVAL("APROVADO!!!")
+   //SENAO
+   //ESCREVAL("REPROVADO!!!")
+   //FIMSE
+
+   //CONDICIONAL ENCADEADA
+   SE MEDIAFINAL >=6.0 ENTAO
+      ESCREVAL("APROVADO!!!")
+   SENAO
+      SE MEDIAFINAL >= 5.0 ENTAO
+         ESCREVAL("RECUPERACAO...")
+      SENAO
+         ESCREVAL("RESPROVADO!!!")
+      FIMSE
+   FIMSE
+
+Fimalgoritmo

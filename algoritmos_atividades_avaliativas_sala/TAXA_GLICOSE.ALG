@@ -1,0 +1,21 @@
+Algoritmo "TAXA_GLICOSE"
+// LOGICA DE PROGRAMAÇAO BASICA
+// Data atual  : 09/09/2026
+Var
+   GLICOSE:REAL
+Inicio
+
+   ESCREVA("DIGITE A MEDIDA DE GLICOSE: ")
+   LEIA(GLICOSE)
+
+   SE GLICOSE <= 100.0 ENTAO
+      ESCREVAL("NORMAL")
+   SENAO
+      SE GLICOSE <= 140.0 ENTAO
+         ESCREVAL("ELEVADO")
+      SENAO
+         ESCREVAL("DIABETES")
+      FIMSE
+   FIMSE
+
+Fimalgoritmo
