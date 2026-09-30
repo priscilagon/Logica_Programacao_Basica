@@ -1,0 +1,12 @@
+// Apostila de Lógica de Programação (VisuAlg)
+// Capítulo: 08-estruturas-de-repeticao
+
+algoritmo "Contagem"
+var
+   i: inteiro
+
+inicio
+   para i de 1 ate 10 faca
+      escreval(i)
+   fimpara
+fimalgoritmo
